@@ -12,19 +12,27 @@ This project is a simple Node.js/Express API for managing users, integrated with
 
 1. Clone the Repository
 
-    git clone https://github.com/sureshpilli97/job_seekers-api-worko.ai.git
+   - git clone https://github.com/sureshpilli97/job_seekers-api-worko.ai.git
+   - cd job_seekers-api-worko.ai
 
 2. Install Dependencies
 
-    npm install
+   - npm install
 
 3. Run the Server
 
-    npm start
+    - npm start
+
+   local request api call to this link after run the server --> http://localhost:5000/worko/user
+
+
+ **Note** The service uses basic authentication with default credentials (admin:Admin123).
+    Username: admin
+    Password: Admin123
 
 # Testing
 
-    npm test
+    - npm test
 
 # API Endpoints
     GET /worko/user -> Get all users
@@ -35,6 +43,9 @@ This project is a simple Node.js/Express API for managing users, integrated with
     DELETE /worko/user/{id} ->elete a user by ID
 
 
+# Online Deployed API Link
 
+   Use below link for deployed api in vercel to directly test above mentioned api request calls use 
+   same authentication credentials.
 
-   
+   - https://job-seekers-api-worko-ai.vercel.app/worko/user
